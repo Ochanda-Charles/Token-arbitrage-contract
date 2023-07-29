@@ -1,3 +1,1 @@
-# Quest 3
-
-Project repository for Quest 3 of StackUp's Token Standards Masterclass - ERC20.
+A simple smart contract that allows you to deposit your own UNI tokens in return for sUNI tokens. Its works pretty simple, you deposit your UNI tokens in the vault then the corresponding amount of sUNI is minted. If you change your mind you simply withdraw your tokens via the withdraw() function which will in return burn the minted sUNI tokens and transfer back the original amount of UNI tokens to your account.
